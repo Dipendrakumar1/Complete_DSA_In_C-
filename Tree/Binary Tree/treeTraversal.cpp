@@ -16,6 +16,10 @@ public:
         cout << r->key << endl;
     }
 };
+
+// time complexity of recursive traversal: O(n)
+// auxilary space of recursive traversal: O(h) --> h--> height of tree
+
 // inOrder Traversal
 void inOrder(node* root){
     if(root == NULL){
